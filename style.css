@@ -17,6 +17,8 @@
 .squareDivs{
     background-color: red;
     width: 53px;
-    height: 53px;
-    
+    height: 53px;   
+}
+.blueItems{
+    background-color: cyan;
 }

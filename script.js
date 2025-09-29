@@ -10,3 +10,10 @@ for(let i = 0; i < 256; i++){
     container.appendChild(squareDiv)
 }
 body.appendChild(container)
+const squareDivGrid = document.querySelectorAll(".squareDivs")
+squareDivGrid.forEach((elem) => {
+    elem.addEventListener("mouseover", (e) => {
+        e.target.classList.add("blueItems")
+    })
+})
+
